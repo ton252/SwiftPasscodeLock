@@ -29,12 +29,11 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ph-dj-v7R" userLabel="TouchID Button">
-                    <rect key="frame" x="139.5" y="625" width="96" height="26"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ph-dj-v7R" userLabel="TouchID Button">
+                    <rect key="frame" x="139.5" y="597" width="96" height="26"/>
                     <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
                     <state key="normal" title="Use TouchID">
-                        <color key="titleColor" red="0.4549019608" green="0.59999999999999998" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleColor" red="0.4196078479" green="0.61568629740000003" blue="0.066666670139999995" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                     <connections>
                         <action selector="touchIDButtonTap:" destination="-1" eventType="touchUpInside" id="MT9-Ev-GsW"/>
@@ -67,7 +66,7 @@
                                             <color key="value" red="0.86666667461395264" green="0.0" blue="0.19215686619281769" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.4196078479" green="0.61568629740000003" blue="0.066666670139999995" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
                                             <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -83,7 +82,7 @@
                                             <color key="value" red="0.86666667461395264" green="0.0" blue="0.19215686619281769" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.4196078479" green="0.61568629740000003" blue="0.066666670139999995" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
                                             <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -99,7 +98,7 @@
                                             <color key="value" red="0.86666667461395264" green="0.0" blue="0.19215686619281769" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.4196078479" green="0.61568629740000003" blue="0.066666670139999995" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
                                             <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -115,7 +114,7 @@
                                             <color key="value" red="0.86666667461395264" green="0.0" blue="0.19215686619281769" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.4196078479" green="0.61568629740000003" blue="0.066666670139999995" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
                                             <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -140,7 +139,7 @@
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                     <state key="normal" title="1">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="selected">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -150,10 +149,10 @@
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="highlightBackgroundColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="passcodeSign" value="1"/>
                                     </userDefinedRuntimeAttributes>
@@ -165,7 +164,7 @@
                                     <rect key="frame" x="102.5" y="8" width="73" height="73"/>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                     <state key="normal" title="2">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="selected">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -175,10 +174,10 @@
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="highlightBackgroundColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="passcodeSign" value="2"/>
                                     </userDefinedRuntimeAttributes>
@@ -190,7 +189,7 @@
                                     <rect key="frame" x="198" y="8" width="73" height="73"/>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                     <state key="normal" title="3">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="selected">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -200,10 +199,10 @@
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="highlightBackgroundColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="passcodeSign" value="3"/>
                                     </userDefinedRuntimeAttributes>
@@ -215,7 +214,7 @@
                                     <rect key="frame" x="8" y="97" width="73" height="73"/>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                     <state key="normal" title="4">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="selected">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -225,10 +224,10 @@
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="highlightBackgroundColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="passcodeSign" value="4"/>
                                     </userDefinedRuntimeAttributes>
@@ -240,7 +239,7 @@
                                     <rect key="frame" x="102.5" y="97" width="73" height="73"/>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                     <state key="normal" title="5">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="selected">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -250,10 +249,10 @@
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="highlightBackgroundColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="passcodeSign" value="5"/>
                                     </userDefinedRuntimeAttributes>
@@ -265,7 +264,7 @@
                                     <rect key="frame" x="198" y="97" width="73" height="73"/>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                     <state key="normal" title="6">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="selected">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -275,10 +274,10 @@
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="highlightBackgroundColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="passcodeSign" value="6"/>
                                     </userDefinedRuntimeAttributes>
@@ -290,7 +289,7 @@
                                     <rect key="frame" x="8" y="186" width="73" height="73"/>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                     <state key="normal" title="7">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="selected">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -300,10 +299,10 @@
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="highlightBackgroundColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="passcodeSign" value="7"/>
                                     </userDefinedRuntimeAttributes>
@@ -315,7 +314,7 @@
                                     <rect key="frame" x="102.5" y="186" width="73" height="73"/>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                     <state key="normal" title="8">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="selected">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -325,10 +324,10 @@
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="highlightBackgroundColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="passcodeSign" value="8"/>
                                     </userDefinedRuntimeAttributes>
@@ -340,7 +339,7 @@
                                     <rect key="frame" x="198" y="186" width="73" height="73"/>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                     <state key="normal" title="9">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="selected">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -350,10 +349,10 @@
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.4196078479" green="0.61568629740000003" blue="0.066666670139999995" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="highlightBackgroundColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="passcodeSign" value="9"/>
                                     </userDefinedRuntimeAttributes>
@@ -365,7 +364,7 @@
                                     <rect key="frame" x="102.5" y="275" width="73" height="73"/>
                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                     <state key="normal" title="0">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="selected">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -375,10 +374,10 @@
                                     </state>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="color" keyPath="highlightBackgroundColor">
-                                            <color key="value" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="value" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="string" keyPath="passcodeSign" value="0"/>
                                     </userDefinedRuntimeAttributes>
@@ -390,7 +389,7 @@
                                     <rect key="frame" x="208" y="298.5" width="53" height="26"/>
                                     <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
                                     <state key="normal" title="Delete">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <state key="disabled">
                                         <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -403,7 +402,7 @@
                                     <rect key="frame" x="16" y="298.5" width="56" height="26"/>
                                     <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
                                     <state key="normal" title="Cancel">
-                                        <color key="titleColor" red="0.7019608021" green="0.92941176889999999" blue="0.23137255009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.41960784792900085" green="0.61568629741668701" blue="0.066666670143604279" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="cancelButtonTap:" destination="-1" eventType="touchUpInside" id="zLU-i4-B3I"/>
@@ -478,8 +477,10 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="0Ph-dj-v7R" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ITQ-Dt-HnH"/>
                 <constraint firstItem="E7w-wE-6bb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JtO-k9-OOg"/>
                 <constraint firstItem="E7w-wE-6bb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="eMe-i8-NJQ"/>
+                <constraint firstAttribute="bottom" secondItem="0Ph-dj-v7R" secondAttribute="bottom" constant="44" id="uaj-wz-ZxZ"/>
             </constraints>
             <point key="canvasLocation" x="190.5" y="484.5"/>
         </view>

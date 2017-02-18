@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71E867011E57AE9B00A2B96B /* PasscodeLockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E867001E57AE9B00A2B96B /* PasscodeLockView.xib */; };
+		71E867221E58D39200A2B96B /* PasscodeLockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E867211E58D39200A2B96B /* PasscodeLockView.xib */; };
 		C99EAF431B90B05700D61E1B /* PasscodeLock.h in Headers */ = {isa = PBXBuildFile; fileRef = C99EAF421B90B05700D61E1B /* PasscodeLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C99EAF4A1B90B05800D61E1B /* PasscodeLock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99EAF3F1B90B05700D61E1B /* PasscodeLock.framework */; };
 		C9D3DF131B91AD11008561EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3DF121B91AD11008561EB /* AppDelegate.swift */; };
@@ -104,7 +104,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		71E867001E57AE9B00A2B96B /* PasscodeLockView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasscodeLockView.xib; sourceTree = "<group>"; };
+		71E867211E58D39200A2B96B /* PasscodeLockView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasscodeLockView.xib; sourceTree = "<group>"; };
 		C99EAF3F1B90B05700D61E1B /* PasscodeLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PasscodeLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99EAF421B90B05700D61E1B /* PasscodeLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasscodeLock.h; sourceTree = "<group>"; };
 		C99EAF441B90B05700D61E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -305,7 +305,7 @@
 			children = (
 				C9DC08111B90DE1B007A4DD0 /* PasscodeSignPlaceholderView.swift */,
 				C9DC08131B90DE50007A4DD0 /* PasscodeSignButton.swift */,
-				71E867001E57AE9B00A2B96B /* PasscodeLockView.xib */,
+				71E867211E58D39200A2B96B /* PasscodeLockView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -501,7 +501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DC07FC1B90D0A3007A4DD0 /* PasscodeLock.strings in Resources */,
-				71E867011E57AE9B00A2B96B /* PasscodeLockView.xib in Resources */,
+				71E867221E58D39200A2B96B /* PasscodeLockView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
