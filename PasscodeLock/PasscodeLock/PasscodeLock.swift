@@ -68,6 +68,11 @@ open class PasscodeLock: PasscodeLockType {
         guard isTouchIDAllowed else { return }
         
         let context = LAContext()
+        
+        if #available(iOS 9.0, *) {
+            context.touchIDAuthenticationAllowableReuseDuration = configuration.touchIDAuthAllowableReuseDuration
+        }
+        
         let reason = localizedStringFor("PasscodeLockTouchIDReason", comment: "TouchID authentication reason")
 
         context.localizedFallbackTitle = localizedStringFor("PasscodeLockTouchIDButton", comment: "TouchID authentication fallback button")
